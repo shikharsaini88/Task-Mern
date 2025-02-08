@@ -1,0 +1,38 @@
+*{
+    
+    margin: 0px;
+}
+  header{
+    background-color: red;
+    text-align: center;
+ }
+ .multi1{
+    margin-left: 200px;
+ }
+ 
+ footer{
+    background-color:red;
+    text-align: center;
+ }
+ .abc{
+    height: 60%;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    transition: all 2s ease-in-out;
+    
+    
+ }
+ .abc:hover{
+   transform: translateX(90px);
+ }
+ .body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+ #multi1{
+   
+   margin-left: 200px;
+   
+ }
