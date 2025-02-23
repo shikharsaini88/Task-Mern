@@ -27,7 +27,7 @@ function showQuestions() {
     <div style="box-shadow: 1px 1px 5px 1px gray; margin:25px; padding:25px ; background-color: white;
       font-weight: bold; ">
     <button style= "color: blue; background-color: black;
-   border:4px solid black;" onclick="deleteStudent()" >Delete</button>
+   border:4px solid black;" onclick="deleteStudent(${i})" >Delete</button>
         <h1>QUE:${que.quesion}</h1>
         <h3>A:${que.a}</h3>
         <h3>B:${que.b}</h3>
