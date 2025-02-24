@@ -19,6 +19,11 @@ function saveQue() {
     }
     listOfQue.push(question)
     localStorage.setItem("questions", JSON.stringify(listOfQue))
+    document.getElementById("op1").value=""
+             document.getElementById("op2").value=""
+              document.getElementById("op3").value=""
+               document.getElementById("op4").value=""
+               document.getElementById("ans").value=""
     // showQuestions()
 }
 function showQuestions() {
