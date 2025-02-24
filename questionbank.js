@@ -23,7 +23,7 @@ function saveQue() {
 }
 function showQuestions() {
     listOfQue = JSON.parse(localStorage.getItem("questions"))
-    document.getElementById("show").innerHTML = listOfQue.map((que) => `
+    document.getElementById("show").innerHTML = listOfQue.map((que,i) => `
     <div style="box-shadow: 1px 1px 5px 1px gray; margin:25px; padding:25px ; background-color: white;
       font-weight: bold; ">
     <button style= "color: blue; background-color: black;
